@@ -11,7 +11,7 @@ import {
   ArrowRight,
   HeroContent,
 } from './HeroElements';
-import Video from '../../assets/video/cascade.mp4';
+import Video from '../../assets/video/wave2.mp4';
 
 
 const HeroSection = () => {
