@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import { Button } from '../ButtonElement'
 import {
   HeroContainer,
   HeroBg,
@@ -39,7 +39,15 @@ const HeroSection = () => {
           deserunt mollit anim id est laborum."
         </HeroP>
         <HeroBtnWrapper>
-       
+          <Button
+              to="signup"
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary="true"
+              dark="true"
+            >
+              Get started {hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
