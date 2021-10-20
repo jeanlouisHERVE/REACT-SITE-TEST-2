@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Button } from '../ButtonElement'
 import {
   HeroContainer,
   HeroBg,
@@ -11,6 +10,7 @@ import {
   ArrowRight,
   HeroContent,
 } from './HeroElements';
+import { Button } from '../ButtonElement'
 import Video from '../../assets/video/wave2.mp4';
 
 
@@ -39,7 +39,7 @@ const HeroSection = () => {
           deserunt mollit anim id est laborum."
         </HeroP>
         <HeroBtnWrapper>
-          <Button
+          {/* <Button
               to="signup"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
@@ -47,7 +47,7 @@ const HeroSection = () => {
               dark="true"
             >
               Get started {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          </Button> */}
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
