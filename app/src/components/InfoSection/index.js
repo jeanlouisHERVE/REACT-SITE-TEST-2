@@ -14,6 +14,8 @@ import {
     Img } from "./InfoElements"
 
 const InfoSection = () => {
+ 
+ 
   return (
     <>
       <InfoContainer>
